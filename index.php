@@ -57,7 +57,7 @@ class f1a9_1s_here
 if (isset($_POST)) {
 	if ($_POST['data']) {
 		$data = urldecode($_POST['data']);
-		var_dump($data);
+		//var_dump($data);
 		$flag = unserialize($data);
 		echo $flag;
 	} else {
@@ -71,6 +71,8 @@ if (isset($_POST)) {
 <html>
 <head>
 	<title>index</title>
+<!--Please remember to commit your newest version to git! by boss-->
+<!--okok,i'll do it asap...-->
 </head>
 <body>
 <form method="POST" action="index.php">
